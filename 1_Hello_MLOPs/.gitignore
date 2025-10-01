@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (don't commit large data!)
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.parquet
+
+# Models (don't commit large model files!)
+models/*
+*.h5
+*.pkl
+*.joblib
+*.pth
+
+# Logs
+logs/*
+*.log
+
+# MLflow
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
